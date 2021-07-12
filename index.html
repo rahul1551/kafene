@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafene</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <header>
+        <div id="left-menu">
+            <nav id="logo-wrap">
+                <img id="logo" src="./kafene-logo.png" alt="logo" />
+                <p id="logo-name"> Kafene</p>
+            </nav>
+            <nav id="menu-wrap">
+                <a class="menu-items" href="orders.html">Orders</a>
+                <a class="menu-items" href="products.html">Products</a>
+                <a class="menu-items" href="users.html">Users</a>
+            </nav>
+        </div>
+        <div id="right-menu">
+            <a class="menu-items logged-out" href="#">Logout</a>
+        </div>
+    </header>
+
+    <main id="login-page-wrap">
+        <div>
+            <form class="login-form">
+                <h1>Sign In</h1>
+                <input id="login-name" class="login-input" type="text" placeholder="Enter Username"/>
+                <input id="login-pass" class="login-input" type="password" placeholder="Enter password" />
+                <input class="login-btn" type="submit" value="Login">
+            </form>
+        </div>
+
+    </main>
+
+    <script src="./index.js"></script>
+    <script src="./base.js"></script>
+
+
+</body>
+</html>
